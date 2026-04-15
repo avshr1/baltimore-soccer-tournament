@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>My WEB101 Website</title>
+        <style>
+            /* Style rules go here. */
+            
+        </style>
+    </head>
+    
+    <body>
+    
+        <!-- navbar
+
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+            <ul>
+            <li><a href="#schools">Participating Schools</a></li>
+            <li><a href="#event-schedule">Schedule</a></li>
+            <li><a href="#bracket">Tournament Bracket</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#contact">Contact & Support</a></li>
+            <li><button id="theme-button">Toggle Dark Mode</button></li>
+            </ul> 
+        </div>
+
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+    <div class="header-container">    
+
+        <div class="header-item">
+            <h1>Baltimore High School Soccer Tournament</h1>
+            <img id="header-img" src="./img/ball_bg.png"/>
+        </div>
+
+        <div class="header-item">
+            <h2>Purpose: </h2>
+            <h3>Welcome to the Baltimore High School Soccer Tournament website — your all-in-one destination for everything related to this year’s competition. Here, you’ll find detailed information about participating teams, game schedules, match results, and tournament updates. Whether you’re a player, parent, student, or supporter, this site keeps you connected with the action while also providing opportunities to donate and support the tournament’s success.</h3>
+            
+        </div>
+
+    </div>
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+     
+
+        <div class="about-container">
+
+    <div class="about-item">
+        <h2>What to Expect</h2>
+        
+    </div>
+
+    <div class="about-item">
+        <ul>
+            <li><b>8 Competing Schools:</b> <i> Top high school soccer programs from across Baltimore face off in a single-elimination bracket</i></li>
+            <li><b>Live Updates:</b> <i> Follow every match result and bracket advancement in real time right here on the site</i></li>
+            <li><b>Community & Support:</b> <i> Cheer on your school, connect with other fans, and help support the tournament through donations</i></li>
+        </ul>
+    </div>
+
+</div>
+
+<h2 id="schools">Participating Schools</h2>
+
+<div class="schools-list">
+
+    <div class="school">
+        <h3>Seed 1 - Riverside High Eagles</h3>
+        <img src="./img/team1.png" alt="School 1 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 2 - Lincoln High Lions</h3>
+        <img src="./img/team2.png" alt="School 2 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 3 - Maplewood High Tigers</h3>
+        <img src="./img/team3.png" alt="School 3 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 4 - Brookfield High Hawks</h3>
+        <img src="./img/team4.png" alt="School 4 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 5 - Hillview High Knights</h3>
+        <img src="./img/team5.png" alt="School 5 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 6 - Pinecrest High Falcons</h3>
+        <img src="./img/team6.png" alt="School 6 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 7 - Oak High Panthers</h3>
+        <img src="./img/team7.png" alt="School 7 Mascot">
+    </div>
+
+    <div class="school">
+        <h3>Seed 8 - Summit High Wolves</h3>
+        <img src="./img/team8.png" alt="School 8 Mascot">
+    </div>
+
+</div>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+
+    <h2 id="event-schedule">Event Schedule</h2>
+
+        <div class="schedule-container">
+            <div class="schedule-item">
+            <img alt="Event 1" src="./img/opening.png"/>
+            <h3>Opening Ceremony</h3>
+            <p>Kick off the tournament as all eight teams take the field for introductions before the first match begins.</p>
+        </div>
+
+        <div class="schedule-item">
+            <img alt="Event 2" src="./img/football.png"/>
+            <h3>Semifinals</h3>
+            <p>The top four teams battle it out — only the best two will advance to compete for the championship.
+</p>
+        </div>
+
+        <div class="schedule-item">
+            <img alt="Event 3" src="./img/trophy.png" class="schedule-img"/>
+            <h3>Championship</h3>
+            <p>The final two teams go head to head for the ultimate prize and the Baltimore Tournament trophy.</p>
+        </div>
+    </div>
+
+<h2 id="bracket">Tournament Bracket</h2>
+    <img src="./img/bracket.png" alt="Tournament Bracket" class="bracket-img">
+<h2 id="results">Results</h2>
+<iframe 
+    width="560" height="315" src="https://www.youtube.com/embed/qknP-E-vPQ4?si=M8mn-MGRYSW-BC61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    
+
+</iframe>
+
+
+
+
+
+<h2 id="contact">Contact & Support</h2>
+    <p>Have questions about the tournament? Reach out to us!</p>
+    <p>Email: <a href="mailto:bmoreSoccer@gmail.com">bmoreSoccer@gmail.com</a></p>
+    <p>Follow us on Instagram: <a href="#">@BaltimoreSoccer</a></p>
+    <p>Interested in sponsoring or donating? Email us to learn more.</p>
+
+
+
+        <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            Please let us know if you’ll be attending the soccer tournament. Whether you’re joining as a fan to cheer from the stands or just stopping by, we’d love to have you there. Kindly RSVP to help us plan accordingly.
+        </div>
+        <div class="rsvp-participants" id="rsvp-participants">
+            <p>✨ DJ is cheering for the falcons!</p>
+            <p>✨ Amy is cheering for the knights!</p>
+            <p>✨ Teresa is cheering for the wolves!</p>
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+           <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+    <label for="team">Favorite Team:</label>
+    <select id="team" name="team">
+        <option value="">-- Select a Team --</option>
+        <option value="eagles">Riverside High Eagles</option>
+        <option value="lions">Lincoln High Lions</option>
+        <option value="tigers">Maplewood High Tigers</option>
+        <option value="hawks">Brookfield High Hawks</option>
+        <option value="knights">Hillview High Knights</option>
+        <option value="falcons">Pinecrest High Falcons</option>
+        <option value="panthers">Oak High Panthers</option>
+        <option value="wolves">Summit High Wolves</option>
+    </select>
+
+    <button id="rsvp-button">Submit RSVP</button>
+
+        </form>
+        <!-- Submit button -->
+        
+    </div>      
+</div>
+
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2>Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://www.codepath.org">
+            <article>
+                <h3>Codepath: The organization behind this web development course.</h3>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+
+        <script src="index.js"></script>
+
+    </body>
+
+
+</html>

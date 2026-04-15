@@ -1,0 +1,270 @@
+.header-container {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+    padding: 20px 20px 10px;
+}
+
+body {
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    padding: 0 20px;
+}
+
+.header-item:nth-of-type(1) {
+    
+   
+
+}
+
+.header-item:nth-of-type(2) {
+   
+
+}
+
+
+
+.navbar {
+  background-color: #90a0c9;
+  padding: 5px 0;
+}
+
+.navbar ul {
+    justify-content: center;
+    z-index: 1000; /* Ensures the navbar is on top of other elements */
+    display: flex; 
+    flex-direction: row;
+
+    list-style-type: none;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 1000;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+.navbar ul li a,
+.navbar ul li button {
+    background-color: #7482bd;
+    color: white;
+    border: 2px dotted white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #597286;
+    color: white;
+
+    
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-item:nth-of-type(1) {
+    padding: 10px;
+
+}
+
+.about-item:nth-of-type(2) {
+    padding: 10px;
+
+}
+
+.school {
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #c5c5e0;
+}
+
+.schools-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;  
+    flex-wrap: wrap;          
+    gap: 8px;
+}
+
+
+.bracket-img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
+
+.navbar ul li a:active {
+    background-color: green;
+    color: white; 
+}
+
+.school img {
+  width: 100%;
+  height: auto;
+}
+
+#header-img {
+    width: 150px;
+    height: 165px;
+    background-color: #7482bd;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.schedule-item {
+    background-color: #ddddf5;
+    border-radius: 6px;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+}
+
+.schedule-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.schedule-img {
+    width: 50px;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Default dark mode style */
+.dark-mode {
+    background-color: #2e2b4a;
+    color: #e8e6f5;
+
+}
+
+/* Example: Different dark mode style for h1 */
+.dark-mode h1 {
+    
+}
+
+/* Example: Different dark mode style for visited links */
+.dark-mode a:visited * {
+
+}
+
+.dark-mode .navbar {
+    background-color: #1e1c33;
+}
+
+.dark-mode .navbar ul li a {
+    background-color: #1e1c33;
+    color: #e8e6f5;
+}
+
+.dark-mode .schedule-item {
+    background-color: #3d3960;
+}
+
+.dark-mode .school {
+    background-color: #3d3960;
+    border-color: #5a5580;
+}
+
+.dark-mode #header-img {
+    background-color: #5a5580;
+}
+
+
+#theme-button:hover {
+    background-color: #597286;
+
+
+}
+
+
+/*** RSVP Section ***
+  
+  Purpose:
+  - Add style rules for your website's RSVP form
+
+  When To Modify:
+  - [ ] Project 6 (REQUIRED FEATURE)
+  - [ ] Project 7 (REQUIRED FEATURE)
+  - [ ] Any time after
+***/
+
+.rsvp-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.rsvp-para {
+    width: 55%;
+    padding-right: 10px;
+}
+
+.rsvp-participants {
+    width: 45%;
+    padding-right: 10px;
+}
+
+/* Add other rsvp-related selectors here */
+
+#rsvp-button {
+    background-color: #7482bd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#rsvp-button:hover {
+    background-color: #4a4a9a;
+}
+
+.dark-mode #rsvp-button {
+    background-color: #3d3960;
+    border: 1px solid #5a5580;
+}
+
+
+
