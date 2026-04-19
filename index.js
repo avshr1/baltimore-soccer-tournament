@@ -70,7 +70,8 @@ const addParticipant = (event) => {
 
 
 // Step 3: Add event listener to the button
-rsvpButton.addEventListener("click", addParticipant);
+let rsvpForm = document.getElementById("rsvp-form");
+rsvpForm.addEventListener("submit", addParticipant);
 
 /*** Form Validation [PLACEHOLDER] [ADDED IN UNIT 7] ***/
 /*** Animations [PLACEHOLDER] [ADDED IN UNIT 8] ***/
